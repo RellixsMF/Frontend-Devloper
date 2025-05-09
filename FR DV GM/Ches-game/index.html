@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chess Game</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols+2&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+  <div class="container mx-auto p-8">
+    <div class="max-w-2xl mx-auto">
+      <h1 class="text-4xl font-bold text-center mb-8 text-gray-800">Chess Game</h1>
+      
+      <div class="text-center mb-4">
+        <span id="currentPlayer" class="text-xl font-semibold text-blue-600">White's Turn</span>
+      </div>
+      
+      <div id="board" class="grid grid-cols-8 w-96 h-96 mx-auto border-2 border-gray-800">
+      </div>
+    </div>
+  </div>
+  
+  <script src='main.js'></script>
+</body>
+
+</html>
